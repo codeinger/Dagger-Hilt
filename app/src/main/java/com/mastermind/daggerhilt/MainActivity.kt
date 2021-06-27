@@ -8,6 +8,7 @@ import dagger.hilt.android.AndroidEntryPoint
 import javax.inject.Inject
 
 
+
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
@@ -21,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        Log.i("dscbhjdsb", "onCreate: "+mobile)
+        Log.i("MyLog", "onCreate: "+mobile)
 
     }
 
