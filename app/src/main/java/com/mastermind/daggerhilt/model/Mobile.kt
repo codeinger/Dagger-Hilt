@@ -6,6 +6,6 @@ import javax.inject.Inject
 class Mobile @Inject constructor(var battery : Battery, var processor : Processor){
 
     init {
-        Log.i("MyLog", "Mobile: "+this)
+        Log.i("dchbdf", "Mobile: $this Battery : $battery Processor $processor")
     }
 }

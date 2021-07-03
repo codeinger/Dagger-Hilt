@@ -14,7 +14,10 @@ class MainActivity : AppCompatActivity() {
 
 
     @Inject
-    lateinit var mobile: Mobile
+    lateinit var mobile1: Mobile
+
+    @Inject
+    lateinit var mobile2: Mobile
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        Log.i("MyLog", "onCreate: "+mobile)
+
 
     }
 
