@@ -5,6 +5,7 @@ import javax.inject.Inject
 import javax.inject.Named
 import javax.inject.Singleton
 
+
 @Singleton
 class Snapdragon @Inject constructor(@Named("Core") var core : Int,@Named("ClockSpeed") var clockSpeed : Int) : Processor{
     init {
